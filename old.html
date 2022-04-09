@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulaire d'inscription</title>
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <script src="./js/bootstrap.bundle.min.js"></script>
+        <style>
+            
+        </style>
+    </head>
+    <body>
+
+        <form action="./php/inscription.php" method="post" class="container-md">
+            <div class="row">
+                <div class="col-md-3">
+                    <label for="nom">Nom :</label>
+                </div>
+                <div class="col-md-9">
+                    <input type="text" id="nom" name="nom" class="form-control" required>
+                </div>
+            </div>
+        </form>
+       
+    </body>
+</html>
+
+<img src="./asset/img/img.jpeg" class="rounded mx-auto d-block mt-5 mb-5" width="250" alt="" srcset="">
+<h1 class="text-center">Formulaire d'inscription</h1>
+<form action="inscription2.php" id="form" class="container-md rounded border border-2 p-2" method="post">
+    <div class="form-group row mt-2">
+        <label for="nom" class="col-md-2 col-form-label">Nom : </label>
+        <div class="col-md-10">
+            <input type="text" id="nom" name="nom" class="form-control" required>
+        </div>   
+    </div>
+    <div class="form-group row mt-2">
+        <label for="prenom" class="col-md-2 col-form-label">Prénom : </label>
+        <div class="col-md-10">
+            <input type="text" name="prenom" class="form-control" id="prenom" required> 
+        </div>   
+    </div>
+    <div class="form-group row mt-2">
+        <label for="email" class="col-md-2 col-form-label">Email : </label>
+        <div class="col-md-10">
+            <input type="text" name="email" class="form-control" placeholder="Votre email" id="email" required>
+        </div>   
+    </div>
+    <div class="form-group row mt-2">
+        <label for="pwd" class="col-md-2 col-form-label"> Mot de pass : </label>
+        <div class="col-md-10" id="show_hide_password">
+            <input type="password" name="pwd" class="form-control" id="pwd" required> 
+        </div>   
+    </div>
+    
+    <div class="form-group row">
+        <div class="col-md-12 d-flex justify-content-center mt-5">
+            <input type="submit" class="btn btn-primary btn-lg" value="Envoyer">
+        </div>
+    </div>
+   
+</form>
