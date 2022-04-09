@@ -11,7 +11,7 @@
                     while($row = $result->fetch_assoc()){
                         $list[]=$row; 
                     }
-                    //json_encoder
+                    //json_encoder 
                     echo json_encode($list);
                 }
                 else 
